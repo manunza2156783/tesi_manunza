@@ -1,2 +1,1 @@
-# tesi_manunza
-Tesi triennale AI e Ambiente Simone Manunza
+# Tesi triennale AI e Ambiente - Simone Manunza (2156783)
