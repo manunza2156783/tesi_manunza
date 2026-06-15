@@ -4,7 +4,7 @@ La repository contiene tutti gli script e i dataset utilizzati per la tesi trien
 
 ---
 # Abstract
-Il progetto pratico ha come fine quello di analizzare il trade-off tra l'utilizzo del ML per predire gli indici di inquinamento e le stesse emissioni dovute al consumo di energia per l'addestramento di tali modelli. I dati utilizzati provengono da: IDEAH, un progetto dell'ISS, che ha fornito i rilevamenti di agenti inquinanti con copertura di un mese (dal 14 giugno al 14 luglio); e da API open source come OpenMeteo e OpenAQ, per integrare i restanti undici mesi di rilevamenti inquinanti e di condizioni climatiche. Una volta addestrati i modelli i loro conseguenti consumi ed emissioni sono stati calcolati utilizzando il tool open source Green Algorithms.
+Il progetto pratico ha come fine quello di analizzare il trade-off tra l'utilizzo del ML per predire gli indici di inquinamento e le stesse emissioni dovute al consumo di energia per l'addestramento di tali modelli. I dati utilizzati provengono da: IDEAH, un progetto dell'ISS, che ha fornito i rilevamenti di agenti inquinanti con copertura di un mese (dal 14 giugno al 14 luglio); e da API open source come OpenMeteo e OpenAQ, per integrare i restanti undici mesi di rilevamenti inquinanti e di condizioni climatiche. Una volta addestrati i modelli i loro conseguenti consumi ed emissioni sono stati calcolati utilizzando il tool Green Algorithms.
 Precisamente gli agenti inquinanti presi in analisi sono: NO₂, O₃, SO₂, CO, PM10, PM2.5. Questi sono stati predetti con i seguenti modelli: XGBoost, LightGBM, SGDRegressor, Random Forest, Decision Trees.
 
 ---
