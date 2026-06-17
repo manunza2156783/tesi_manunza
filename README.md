@@ -32,6 +32,7 @@ Infine, come metriche di errore si sono adottate:
 - Mean Absolute Error
 - Root Mean Squared Error
 - R²
+
 Ultimamente scegliendo R² come metrica principale per la valutazione dei modelli.
 
 ---
