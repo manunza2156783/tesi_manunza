@@ -15,9 +15,9 @@ Precisamente gli agenti inquinanti presi in analisi sono:
 - PM2.5
 
 I livelli di quantità di presenza nell'aria di questi agenti, espressi in µg/m3, sono stati predetti con i seguenti modelli:
-- XGBoost
-- LightGBM
-- SGDRegressor
+- eXtreme Gradient Boosting
+- Light Gradient Boosting Machine
+- Stochastic Gradient Descent Regressor
 - Random Forest
 - Decision Trees
 
