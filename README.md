@@ -26,7 +26,13 @@ Sono stati effettutati 3 fold stagionali:
 2. Fold 2 (test estivo):       Train: gen–apr | Val: mag | Test: giu–lug
 3. Fold 3 (test primaverile):  Train: gen–feb | Val: mar | Test: apr–mag
 
-Infine, a causa delle grandi varianze tra i differenti agenti, per ogni addestramento si è creato un modello singolo per ciascun agente, per ciascun fold. 
+A causa delle grandi varianze tra i differenti agenti, per ogni addestramento si è creato un modello singolo per ciascun agente, per ciascun fold. 
+
+Infine, come metriche di errore si sono adottate:
+- Mean Absolute Error
+- Root Mean Squared Error
+- R2
+Ultimamente scegliendo R2 come metrica principale per la valutazione dei modelli.
 
 ---
 # Istruzioni
