@@ -1,6 +1,6 @@
 # Tesi triennale AI e Ambiente - Simone Manunza (2156783)
 
-La repository contiene tutti gli script e i dataset utilizzati per la tesi triennale "AI e Ambiente" per il corso di Laurea in Filosofia e Intelligenza Artificiale (2025-2026) alla Sapienza Università di Roma, per il laureando Simone Manunza (2156783) con Relatrice Prof.ssa Flavia Monti e Correlatrice Dott.ssa Elisabetta Arba. 
+La repository contiene lo script di addestramento dei modelli per la tesi triennale "AI e Ambiente" per il corso di Laurea in Filosofia e Intelligenza Artificiale (2025-2026) alla Sapienza Università di Roma, per il laureando Simone Manunza (2156783) con Relatrice Prof.ssa Flavia Monti e Correlatrice Dott.ssa Elisabetta Arba. 
 
 ---
 # Abstract
@@ -10,8 +10,4 @@ Precisamente gli agenti inquinanti presi in analisi sono: NO₂, O₃, SO₂, CO
 ---
 # Istruzioni
 
-Tutti i dataset utilizzati si trovano nella cartella "dataset" e sono stati caricati con l'utilizzo di Git Large File Storage. Qui si trovano tutte le versioni dei dataset, a partire da quella iniziale, "dati_tesi_incompleti.csv", cioè i dati scaricati dal server IDEAH, con poi tutte le versioni intermedie in cui sono stati scaricati i dati tramite utilizzo API di OpenMeteo e OpenAQ, fino ad arrivare alla versione finale, "dati_tesi_finali_addestramento.csv"
-
-Nella cartella "dati rilevamenti agenti" si trova lo script per il download dei dati da OpenAQ, mentre nella cartella "dati condizioni climatiche" si trova lo script per il controllo delle stazioni offerte da OpenMeteo, in quanto i dati da questa fonte sono stati scaricati direttamente dal sito e non tramite script Python con limite di delta per la distanza tra la stazione offerta e quella originale di riferimento.
-
-Si trova, poi, l'EDA sul dataset finale, creato con gli script delle cartelle precedentemente nominate, e, infine, l'addestramento dei modelli.
+Nella repository è presente solamente lo script di addestramento dei modelli in quanto questi sono stati addestrati con dati privati, qui sono presenti i risultati dei modelli addestrati.
