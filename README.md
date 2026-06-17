@@ -14,7 +14,7 @@ Precisamente gli agenti inquinanti presi in analisi sono:
 - PM10
 - PM2.5
 
-I livelli di quantità di presenza nell'aria di questi agenti, espressi in µg/m3, sono stati predetti con i seguenti modelli:
+I livelli di quantità di presenza nell'aria di questi agenti, espressi in µg/m³, sono stati predetti con i seguenti modelli:
 - eXtreme Gradient Boosting
 - Light Gradient Boosting Machine
 - Stochastic Gradient Descent Regressor
@@ -31,8 +31,8 @@ A causa delle grandi varianze tra i differenti agenti, per ogni addestramento si
 Infine, come metriche di errore si sono adottate:
 - Mean Absolute Error
 - Root Mean Squared Error
-- R2
-Ultimamente scegliendo R2 come metrica principale per la valutazione dei modelli.
+- R²
+Ultimamente scegliendo R² come metrica principale per la valutazione dei modelli.
 
 ---
 # Istruzioni
